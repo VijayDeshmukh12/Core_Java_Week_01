@@ -1,5 +1,5 @@
-import java.util.Scanner;
-
+//import java.util.Scanner;
+/*
 public class ScannerStudy2 {
 
 	public static void main(String[] args) {
@@ -25,9 +25,33 @@ public class ScannerStudy2 {
 		System.out.println("Address : " + address);
 		System.out.println("House number : " + number);
 		System.out.println("Percentage : " + percentage);
-
-
-
-	}
-
 }
+}
+*/
+/*class SampleDemo implements Runnable {
+	private Thread t;
+	private String tName;
+	SampleDemo (String tName){
+		this.tName = tName;
+	}
+	public void run() {
+		while (true)
+			System.out.print(tName);
+	}
+	public void start() {
+		if(t==null) {
+			t = new Thread(this, tName);
+			t.start();
+		}
+	}
+}
+
+public class ScannerStudy2{
+	public static void main(String[] args) {
+		SampleDemo A = new SampleDemo( "A");
+		SampleDemo B = new SampleDemo( "B");
+		B.start();
+		A.start();
+	}
+}
+*/
